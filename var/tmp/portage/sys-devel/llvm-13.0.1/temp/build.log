@@ -1,0 +1,240 @@
+[32m * [39;49;00mPackage:    sys-devel/llvm-13.0.1
+[32m * [39;49;00mRepository: gentoo
+[32m * [39;49;00mMaintainer: llvm@gentoo.org
+[32m * [39;49;00mUSE:        abi_x86_64 amd64 binutils-plugin elibc_glibc kernel_linux libffi llvm_targets_AArch64 llvm_targets_AMDGPU llvm_targets_ARM llvm_targets_AVR llvm_targets_BPF llvm_targets_Hexagon llvm_targets_Lanai llvm_targets_MSP430 llvm_targets_Mips llvm_targets_NVPTX llvm_targets_PowerPC llvm_targets_RISCV llvm_targets_Sparc llvm_targets_SystemZ llvm_targets_WebAssembly llvm_targets_X86 llvm_targets_XCore ncurses userland_GNU xml
+[32m * [39;49;00mFEATURES:   network-sandbox preserve-libs sandbox userpriv usersandbox
+ [32m*[0m Checking whether python3_10 is suitable ...
+ [32m*[0m   >=dev-lang/python-3.10.0_p1-r1:3.10 ...
+[A[112C [34;01m[ [32;01mok[34;01m ][0m
+ [32m*[0m   python_check_deps ...
+[A[112C [34;01m[ [32;01mok[34;01m ][0m
+ [32m*[0m Using python3.10 to build (via PYTHON_COMPAT iteration)
+>>> Unpacking source...
+ [32m*[0m Unpacking from llvmorg-13.0.1.tar.gz ...
+[A[112C [34;01m[ [32;01mok[34;01m ][0m
+>>> Unpacking llvm-13.0.1-manpages.tar.bz2 to /var/tmp/portage/sys-devel/llvm-13.0.1/work
+>>> Unpacking llvm-gentoo-patchset-13.0.1.tar.xz to /var/tmp/portage/sys-devel/llvm-13.0.1/work
+>>> Source unpacked in /var/tmp/portage/sys-devel/llvm-13.0.1/work
+>>> Preparing source in /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm ...
+ [32m*[0m Source directory (CMAKE_USE_DIR): "/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm"
+ [32m*[0m Build directory  (BUILD_DIR):     "/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build"
+ [32m*[0m Applying patches from /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-gentoo-patchset-13.0.1 ...
+ [32m*[0m   0001-llvm-llvm-config-Clean-up-exported-values.patch ...
+[A[112C [34;01m[ [32;01mok[34;01m ][0m
+ [32m*[0m Hardcoded definition(s) removed in CMakeLists.txt:
+ [32m*[0m    set(CMAKE_BUILD_TYPE "Debug" CACHE STRING "Build type (default Debug)" FORC
+>>> Source prepared.
+>>> Configuring source in /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm ...
+ [32m*[0m abi_x86_64.amd64: running multilib-minimal_abi_src_configure
+ [32m*[0m Source directory (CMAKE_USE_DIR): "/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm"
+ [32m*[0m Build directory  (BUILD_DIR):     "/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64"
+cmake -C /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/gentoo_common_config.cmake -G Ninja -DCMAKE_INSTALL_PREFIX=/usr -DLLVM_APPEND_VC_REV=OFF -DCMAKE_INSTALL_PREFIX=/usr/lib/llvm/13 -DLLVM_LIBDIR_SUFFIX=64 -DBUILD_SHARED_LIBS=OFF -DLLVM_BUILD_LLVM_DYLIB=ON -DLLVM_LINK_LLVM_DYLIB=ON -DLLVM_DISTRIBUTION_COMPONENTS=LLVM;LTO;Remarks;llvm-config;cmake-exports;llvm-headers;LLVMDemangle;LLVMSupport;LLVMTableGen;llvm-tblgen;FileCheck;llvm-PerfectShuffle;count;not;yaml-bench;bugpoint;dsymutil;llc;lli;lli-child-target;llvm-addr2line;llvm-ar;llvm-as;llvm-bcanalyzer;llvm-bitcode-strip;llvm-c-test;llvm-cat;llvm-cfi-verify;llvm-config;llvm-cov;llvm-cvtres;llvm-cxxdump;llvm-cxxfilt;llvm-cxxmap;llvm-diff;llvm-dis;llvm-dlltool;llvm-dwarfdump;llvm-dwp;llvm-exegesis;llvm-extract;llvm-gsymutil;llvm-ifs;llvm-install-name-tool;llvm-jitlink;llvm-jitlink-executor;llvm-lib;llvm-libtool-darwin;llvm-link;llvm-lipo;llvm-lto;llvm-lto2;llvm-mc;llvm-mca;llvm-ml;llvm-modextract;llvm-mt;llvm-nm;llvm-objcopy;llvm-objdump;llvm-opt-report;llvm-otool;llvm-pdbutil;llvm-profdata;llvm-profgen;llvm-ranlib;llvm-rc;llvm-readelf;llvm-readobj;llvm-reduce;llvm-rtdyld;llvm-sim;llvm-size;llvm-split;llvm-stress;llvm-strings;llvm-strip;llvm-symbolizer;llvm-tapi-diff;llvm-undname;llvm-windres;llvm-xray;obj2yaml;opt;sancov;sanstats;split-file;verify-uselistorder;yaml2obj;opt-viewer;LLVMgold; -DLLVM_TARGETS_TO_BUILD= -DLLVM_EXPERIMENTAL_TARGETS_TO_BUILD=NVPTX;Lanai;Sparc;PowerPC;BPF;AMDGPU;X86;XCore;MSP430;SystemZ;ARM;Mips;AArch64;Hexagon;AVR;WebAssembly;RISCV -DLLVM_BUILD_TESTS=no -DLLVM_ENABLE_FFI=yes -DLLVM_ENABLE_LIBEDIT=no -DLLVM_ENABLE_TERMINFO=yes -DLLVM_ENABLE_LIBXML2=yes -DLLVM_ENABLE_ASSERTIONS=no -DLLVM_ENABLE_LIBPFM=no -DLLVM_ENABLE_EH=ON -DLLVM_ENABLE_RTTI=ON -DLLVM_ENABLE_Z3_SOLVER=no -DLLVM_HOST_TRIPLE=x86_64-pc-linux-gnu -DFFI_INCLUDE_DIR=/usr/lib64/libffi/include  -DFFI_LIBRARY_DIR= -DLLVM_HAVE_LIBXAR=0 -DPython3_EXECUTABLE=/usr/bin/python3.10 -DOCAMLFIND=NO -DGO_EXECUTABLE=GO_EXECUTABLE-NOTFOUND -DLLVM_BUILD_DOCS=OFF -DLLVM_ENABLE_OCAMLDOC=OFF -DLLVM_ENABLE_SPHINX=OFF -DLLVM_ENABLE_DOXYGEN=OFF -DLLVM_INSTALL_UTILS=ON -DLLVM_BINUTILS_INCDIR=/usr/include -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_TOOLCHAIN_FILE=/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/gentoo_toolchain.cmake /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm
+loading initial cache file /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/gentoo_common_config.cmake
+-- The C compiler identification is Clang 13.0.0
+-- The CXX compiler identification is Clang 13.0.0
+-- The ASM compiler identification is Clang with GNU-like command-line
+-- Found assembler: /usr/lib/llvm/13/bin/clang
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/llvm/13/bin/clang - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/llvm/13/bin/clang++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test LLVM_LIBSTDCXX_MIN
+-- Performing Test LLVM_LIBSTDCXX_MIN - Success
+-- Performing Test LLVM_LIBSTDCXX_SOFT_ERROR
+-- Performing Test LLVM_LIBSTDCXX_SOFT_ERROR - Success
+-- Looking for dlfcn.h
+-- Looking for dlfcn.h - found
+-- Looking for errno.h
+-- Looking for errno.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for link.h
+-- Looking for link.h - found
+-- Looking for malloc/malloc.h
+-- Looking for malloc/malloc.h - not found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for signal.h
+-- Looking for signal.h - found
+-- Looking for sys/ioctl.h
+-- Looking for sys/ioctl.h - found
+-- Looking for sys/mman.h
+-- Looking for sys/mman.h - found
+-- Looking for sys/param.h
+-- Looking for sys/param.h - found
+-- Looking for sys/resource.h
+-- Looking for sys/resource.h - found
+-- Looking for sys/stat.h
+-- Looking for sys/stat.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for sysexits.h
+-- Looking for sysexits.h - found
+-- Looking for termios.h
+-- Looking for termios.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for valgrind/valgrind.h
+-- Looking for valgrind/valgrind.h - not found
+-- Looking for fenv.h
+-- Looking for fenv.h - found
+-- Looking for FE_ALL_EXCEPT
+-- Looking for FE_ALL_EXCEPT - found
+-- Looking for FE_INEXACT
+-- Looking for FE_INEXACT - found
+-- Looking for mach/mach.h
+-- Looking for mach/mach.h - not found
+-- Looking for histedit.h
+-- Looking for histedit.h - not found
+-- Looking for CrashReporterClient.h
+-- Looking for CrashReporterClient.h - not found
+-- Looking for linux/magic.h
+-- Looking for linux/magic.h - found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Looking for pthread_getspecific in pthread
+-- Looking for pthread_getspecific in pthread - found
+-- Looking for pthread_rwlock_init in pthread
+-- Looking for pthread_rwlock_init in pthread - found
+-- Looking for pthread_mutex_lock in pthread
+-- Looking for pthread_mutex_lock in pthread - found
+-- Looking for dlopen in dl
+-- Looking for dlopen in dl - found
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ZLIB: /usr/lib64/libz.so (found version "1.2.11") 
+-- Looking for compress2
+-- Looking for compress2 - found
+-- Found LibXml2: /usr/lib64/libxml2.so (found version "2.9.13") 
+-- Looking for xmlReadMemory
+-- Looking for xmlReadMemory - found
+-- Looking for arc4random
+-- Looking for arc4random - not found
+-- Looking for backtrace
+-- Looking for backtrace - found
+-- backtrace facility detected in default set of libraries
+-- Found Backtrace: /usr/include  
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW
+-- Performing Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW - Success
+-- Looking for __register_frame
+-- Looking for __register_frame - found
+-- Looking for __deregister_frame
+-- Looking for __deregister_frame - found
+-- Looking for _Unwind_Backtrace
+-- Looking for _Unwind_Backtrace - found
+-- Looking for getpagesize
+-- Looking for getpagesize - found
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Looking for getrusage
+-- Looking for getrusage - found
+-- Looking for setrlimit
+-- Looking for setrlimit - found
+-- Looking for isatty
+-- Looking for isatty - found
+-- Looking for futimens
+-- Looking for futimens - found
+-- Looking for futimes
+-- Looking for futimes - found
+-- Looking for posix_fallocate
+-- Looking for posix_fallocate - found
+-- Looking for sigaltstack
+-- Looking for sigaltstack - found
+-- Looking for lseek64
+-- Looking for lseek64 - found
+-- Looking for mallctl
+-- Looking for mallctl - not found
+-- Looking for mallinfo
+-- Looking for mallinfo - found
+-- Looking for mallinfo2
+-- Looking for mallinfo2 - found
+-- Looking for malloc_zone_statistics
+-- Looking for malloc_zone_statistics - not found
+-- Looking for getrlimit
+-- Looking for getrlimit - found
+-- Looking for posix_spawn
+-- Looking for posix_spawn - found
+-- Looking for pread
+-- Looking for pread - found
+-- Looking for sbrk
+-- Looking for sbrk - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for strerror_s
+-- Looking for strerror_s - not found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for dlopen
+-- Looking for dlopen - found
+-- Looking for dladdr
+-- Looking for dladdr - not found
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC - Success
+-- Looking for __GLIBC__
+-- Looking for __GLIBC__ - found
+-- Looking for pthread_getname_np
+-- Looking for pthread_getname_np - found
+-- Looking for pthread_setname_np
+-- Looking for pthread_setname_np - found
+-- Looking for ffi_call
+-- Looking for ffi_call - found
+-- Looking for proc_pid_rusage
+-- Looking for proc_pid_rusage - not found
+-- Performing Test HAVE_STD_IS_TRIVIALLY_COPYABLE
+-- Performing Test HAVE_STD_IS_TRIVIALLY_COPYABLE - Success
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB - Failed
+-- Looking for __atomic_fetch_add_4 in atomic
+-- Looking for __atomic_fetch_add_4 in atomic - found
+-- Performing Test HAVE_CXX_ATOMICS_WITH_LIB
+-- Performing Test HAVE_CXX_ATOMICS_WITH_LIB - Failed
+CMake Error at cmake/modules/CheckAtomic.cmake:56 (message):
+  Host compiler must support std::atomic!
+Call Stack (most recent call first):
+  cmake/config-ix.cmake:374 (include)
+  CMakeLists.txt:684 (include)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeOutput.log".
+See also "/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeError.log".
+ [31;01m*[0m ERROR: sys-devel/llvm-13.0.1::gentoo failed (configure phase):
+ [31;01m*[0m   cmake failed
+ [31;01m*[0m 
+ [31;01m*[0m Call stack:
+ [31;01m*[0m     ebuild.sh, line  127:  Called src_configure
+ [31;01m*[0m   environment, line 3872:  Called multilib-minimal_src_configure
+ [31;01m*[0m   environment, line 2701:  Called multilib_foreach_abi 'multilib-minimal_abi_src_configure'
+ [31;01m*[0m   environment, line 2951:  Called multibuild_foreach_variant '_multilib_multibuild_wrapper' 'multilib-minimal_abi_src_configure'
+ [31;01m*[0m   environment, line 2656:  Called _multibuild_run '_multilib_multibuild_wrapper' 'multilib-minimal_abi_src_configure'
+ [31;01m*[0m   environment, line 2654:  Called _multilib_multibuild_wrapper 'multilib-minimal_abi_src_configure'
+ [31;01m*[0m   environment, line  588:  Called multilib-minimal_abi_src_configure
+ [31;01m*[0m   environment, line 2695:  Called multilib_src_configure
+ [31;01m*[0m   environment, line 3207:  Called cmake_src_configure
+ [31;01m*[0m   environment, line 1552:  Called die
+ [31;01m*[0m The specific snippet of code:
+ [31;01m*[0m       "${CMAKE_BINARY}" "${cmakeargs[@]}" "${CMAKE_USE_DIR}" || die "cmake failed";
+ [31;01m*[0m 
+ [31;01m*[0m If you need support, post the output of `emerge --info '=sys-devel/llvm-13.0.1::gentoo'`,
+ [31;01m*[0m the complete build log and the output of `emerge -pqv '=sys-devel/llvm-13.0.1::gentoo'`.
+ [31;01m*[0m The complete build log is located at '/var/tmp/portage/sys-devel/llvm-13.0.1/temp/build.log'.
+ [31;01m*[0m The ebuild environment file is located at '/var/tmp/portage/sys-devel/llvm-13.0.1/temp/environment'.
+ [31;01m*[0m Working directory: '/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64'
+ [31;01m*[0m S: '/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm'

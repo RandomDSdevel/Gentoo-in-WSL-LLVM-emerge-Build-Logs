@@ -1,0 +1,20 @@
+… # emerge -pqv '=sys-devel/llvm-13.0.1::gentoo' 2>&1 | tee -a "${THIS_FILE}"
+[ebuild     U ] sys-devel/llvm-13.0.1 [13.0.0] USE="binutils-plugin%* libffi ncurses xml -debug -doc -exegesis -libedit -test -xar -z3 (-gold%*)" ABI_X86="(64) -32 (-x32)" LLVM_TARGETS="(AArch64*) (AMDGPU) (ARM*) (AVR*) (BPF) (Hexagon*) (Lanai*) (MSP430*) (Mips*) (NVPTX) (PowerPC*) (RISCV*) (Sparc*) (SystemZ*) (WebAssembly*) (X86) (XCore*) (-ARC) (-CSKY) (-M68k) (-VE)" 
+
+!!! Multiple package instances within a single package slot have been pulled
+!!! into the dependency graph, resulting in a slot conflict:
+
+sys-devel/llvm:13
+
+  (sys-devel/llvm-13.0.1:13/13::gentoo, ebuild scheduled for merge) USE="binutils-plugin libffi ncurses xml -debug -doc -exegesis -libedit -test -xar -z3" ABI_X86="(64) -32 (-x32)" LLVM_TARGETS="(AArch64) (AMDGPU) (ARM) (AVR) (BPF) (Hexagon) (Lanai) (MSP430) (Mips) (NVPTX) (PowerPC) (RISCV) (Sparc) (SystemZ) (WebAssembly) (X86) (XCore) (-ARC) (-CSKY) (-M68k) (-VE)" pulled in by
+    sys-devel/llvm:13[binutils-plugin(-)] required by (sys-devel/llvmgold-13-r1-1:0/0::gentoo, installed) USE="" ABI_X86="(64)"
+                                                                                                                                
+    =sys-devel/llvm-13.0.1::gentoo (Argument)
+
+  (sys-devel/llvm-13.0.0:13/13::gentoo, installed) USE="gold libffi ncurses xml -debug -doc -exegesis -libedit -test -xar -z3" ABI_X86="(64) -32 (-x32)" LLVM_TARGETS="AMDGPU BPF NVPTX (X86) -AArch64 (-ARC) -ARM -AVR (-CSKY) -Hexagon -Lanai (-M68k) -MSP430 -Mips -PowerPC -RISCV -Sparc -SystemZ (-VE) -WebAssembly -XCore" pulled in by
+    ~sys-devel/llvm-13.0.0[llvm_targets_AMDGPU] required by (sys-devel/clang-13.0.0:13/13::gentoo, installed) USE="default-lld llvm-libunwind static-analyzer xml -debug -default-compiler-rt -default-libcxx -doc -test" ABI_X86="(64) -32 (-x32)" LLVM_TARGETS="AMDGPU BPF NVPTX (X86) -AArch64 (-ARC) -ARM -AVR (-CSKY) -Hexagon -Lanai (-M68k) -MSP430 -Mips -PowerPC -RISCV -Sparc -SystemZ (-VE) -WebAssembly -XCore" PYTHON_SINGLE_TARGET="python3_9 -python3_10 -python3_8"
+    ^               ^^^^^^                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+    (and 4 more with the same problem)
+
+NOTE: Use the '--verbose-conflicts' option to display parents omitted above
+
