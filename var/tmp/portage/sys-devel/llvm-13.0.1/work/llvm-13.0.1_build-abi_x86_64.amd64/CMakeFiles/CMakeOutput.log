@@ -1,0 +1,1343 @@
+The system is: Linux - 5.10.102.1-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/lib/llvm/13/bin/clang 
+Build flags: -march=native;-mtune=native;-O2;-pipe;-flto=thin
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/3.22.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/lib/llvm/13/bin/clang++ 
+Build flags: -march=native;-mtune=native;-O2;-pipe;-flto=thin
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/3.22.2/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+clang version 13.0.0
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/lib/llvm/13/bin
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5d097 && [1/2] Building C object CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o
+clang version 13.0.0
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/lib/llvm/13/bin
+Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm/13/bin/clang-13" -cc1 -triple x86_64-pc-linux-gnu -emit-llvm-bc -flto=thin -flto-unit -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu skylake -target-feature +sse2 -target-feature -tsxldtrk -target-feature +cx16 -target-feature +sahf -target-feature -tbm -target-feature -avx512ifma -target-feature -sha -target-feature -gfni -target-feature -fma4 -target-feature -vpclmulqdq -target-feature +prfchw -target-feature +bmi2 -target-feature -cldemote -target-feature +fsgsbase -target-feature -ptwrite -target-feature -amx-tile -target-feature -uintr -target-feature +popcnt -target-feature -widekl -target-feature +aes -target-feature -avx512bitalg -target-feature -movdiri -target-feature +xsaves -target-feature -avx512er -target-feature -avxvnni -target-feature -avx512vnni -target-feature -amx-bf16 -target-feature -avx512vpopcntdq -target-feature -pconfig -target-feature -clwb -target-feature -avx512f -target-feature +xsavec -target-feature -clzero -target-feature -pku -target-feature +mmx -target-feature -lwp -target-feature -rdpid -target-feature -xop -target-feature +rdseed -target-feature -waitpkg -target-feature -kl -target-feature -movdir64b -target-feature -sse4a -target-feature -avx512bw -target-feature +clflushopt -target-feature +xsave -target-feature -avx512vbmi2 -target-feature +64bit -target-feature -avx512vl -target-feature -serialize -target-feature -hreset -target-feature +invpcid -target-feature -avx512cd -target-feature +avx -target-feature -vaes -target-feature -avx512bf16 -target-feature +cx8 -target-feature +fma -target-feature -rtm -target-feature +bmi -target-feature -enqcmd -target-feature +rdrnd -target-feature -mwaitx -target-feature +sse4.1 -target-feature +sse4.2 -target-feature +avx2 -target-feature +fxsr -target-feature -wbnoinvd -target-feature +sse -target-feature +lzcnt -target-feature +pclmul -target-feature -prefetchwt1 -target-feature +f16c -target-feature +ssse3 -target-feature -sgx -target-feature -shstk -target-feature +cmov -target-feature -avx512vbmi -target-feature -amx-int8 -target-feature +movbe -target-feature -avx512vp2intersect -target-feature +xsaveopt -target-feature -avx512dq -target-feature +adx -target-feature -avx512pf -target-feature +sse3 -tune-cpu skylake -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -internal-isystem /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -fdebug-compilation-dir=/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include
+ /usr/include
+End of search list.
+[2/2] Linking C executable cmTC_5d097
+clang version 13.0.0
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/lib/llvm/13/bin
+Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/usr/bin/ld.lld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5d097 /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crti.o /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/llvm/13/bin/../lib -L/lib -L/usr/lib -plugin-opt=mcpu=skylake -plugin-opt=O2 -plugin-opt=thinlto -O2 --as-needed -z relro -z now CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -l:libunwind.so --no-as-needed -lc /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -l:libunwind.so --no-as-needed /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crtn.o
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include] ==> [/usr/lib/clang/13.0.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/clang/13.0.0/include;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_5d097 && [1/2] Building C object CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o]
+  ignore line: [clang version 13.0.0]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/lib/llvm/13/bin]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/lib/llvm/13/bin/clang-13" -cc1 -triple x86_64-pc-linux-gnu -emit-llvm-bc -flto=thin -flto-unit -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu skylake -target-feature +sse2 -target-feature -tsxldtrk -target-feature +cx16 -target-feature +sahf -target-feature -tbm -target-feature -avx512ifma -target-feature -sha -target-feature -gfni -target-feature -fma4 -target-feature -vpclmulqdq -target-feature +prfchw -target-feature +bmi2 -target-feature -cldemote -target-feature +fsgsbase -target-feature -ptwrite -target-feature -amx-tile -target-feature -uintr -target-feature +popcnt -target-feature -widekl -target-feature +aes -target-feature -avx512bitalg -target-feature -movdiri -target-feature +xsaves -target-feature -avx512er -target-feature -avxvnni -target-feature -avx512vnni -target-feature -amx-bf16 -target-feature -avx512vpopcntdq -target-feature -pconfig -target-feature -clwb -target-feature -avx512f -target-feature +xsavec -target-feature -clzero -target-feature -pku -target-feature +mmx -target-feature -lwp -target-feature -rdpid -target-feature -xop -target-feature +rdseed -target-feature -waitpkg -target-feature -kl -target-feature -movdir64b -target-feature -sse4a -target-feature -avx512bw -target-feature +clflushopt -target-feature +xsave -target-feature -avx512vbmi2 -target-feature +64bit -target-feature -avx512vl -target-feature -serialize -target-feature -hreset -target-feature +invpcid -target-feature -avx512cd -target-feature +avx -target-feature -vaes -target-feature -avx512bf16 -target-feature +cx8 -target-feature +fma -target-feature -rtm -target-feature +bmi -target-feature -enqcmd -target-feature +rdrnd -target-feature -mwaitx -target-feature +sse4.1 -target-feature +sse4.2 -target-feature +avx2 -target-feature +fxsr -target-feature -wbnoinvd -target-feature +sse -target-feature +lzcnt -target-feature +pclmul -target-feature -prefetchwt1 -target-feature +f16c -target-feature +ssse3 -target-feature -sgx -target-feature -shstk -target-feature +cmov -target-feature -avx512vbmi -target-feature -amx-int8 -target-feature +movbe -target-feature -avx512vp2intersect -target-feature +xsaveopt -target-feature -avx512dq -target-feature +adx -target-feature -avx512pf -target-feature +sse3 -tune-cpu skylake -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o -sys-header-deps -D NDEBUG -internal-isystem /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -fdebug-compilation-dir=/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target x86_64-pc-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking C executable cmTC_5d097]
+  ignore line: [clang version 13.0.0]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/lib/llvm/13/bin]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld.lld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5d097 /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crti.o /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/llvm/13/bin/../lib -L/lib -L/usr/lib -plugin-opt=mcpu=skylake -plugin-opt=O2 -plugin-opt=thinlto -O2 --as-needed -z relro -z now CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -l:libunwind.so --no-as-needed -lc /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a --as-needed -l:libunwind.so --no-as-needed /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crtn.o]
+    arg [/usr/bin/ld.lld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5d097] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crti.o]
+    arg [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o] ==> obj [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/llvm/13/bin/../lib] ==> dir [/usr/lib/llvm/13/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-plugin-opt=mcpu=skylake] ==> ignore
+    arg [-plugin-opt=O2] ==> ignore
+    arg [-plugin-opt=thinlto] ==> ignore
+    arg [-O2] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_5d097.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [--as-needed] ==> ignore
+    arg [-l:libunwind.so] ==> lib [-l:libunwind.so]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [--as-needed] ==> ignore
+    arg [-l:libunwind.so] ==> lib [-l:libunwind.so]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o] ==> obj [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crtn.o]
+  remove lib [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a]
+  remove lib [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o] ==> [/usr/lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o]
+  collapse obj [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o] ==> [/usr/lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse library dir [/usr/lib/llvm/13/bin/../lib] ==> [/usr/lib/llvm/13/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [-l:libunwind.so;c;-l:libunwind.so]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o;/usr/lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib/llvm/13/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5ee80 && [1/2] Building CXX object CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o
+clang version 13.0.0
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/lib/llvm/13/bin
+Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ (in-process)
+ "/usr/lib/llvm/13/bin/clang-13" -cc1 -triple x86_64-pc-linux-gnu -emit-llvm-bc -flto=thin -flto-unit -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu skylake -target-feature +sse2 -target-feature -tsxldtrk -target-feature +cx16 -target-feature +sahf -target-feature -tbm -target-feature -avx512ifma -target-feature -sha -target-feature -gfni -target-feature -fma4 -target-feature -vpclmulqdq -target-feature +prfchw -target-feature +bmi2 -target-feature -cldemote -target-feature +fsgsbase -target-feature -ptwrite -target-feature -amx-tile -target-feature -uintr -target-feature +popcnt -target-feature -widekl -target-feature +aes -target-feature -avx512bitalg -target-feature -movdiri -target-feature +xsaves -target-feature -avx512er -target-feature -avxvnni -target-feature -avx512vnni -target-feature -amx-bf16 -target-feature -avx512vpopcntdq -target-feature -pconfig -target-feature -clwb -target-feature -avx512f -target-feature +xsavec -target-feature -clzero -target-feature -pku -target-feature +mmx -target-feature -lwp -target-feature -rdpid -target-feature -xop -target-feature +rdseed -target-feature -waitpkg -target-feature -kl -target-feature -movdir64b -target-feature -sse4a -target-feature -avx512bw -target-feature +clflushopt -target-feature +xsave -target-feature -avx512vbmi2 -target-feature +64bit -target-feature -avx512vl -target-feature -serialize -target-feature -hreset -target-feature +invpcid -target-feature -avx512cd -target-feature +avx -target-feature -vaes -target-feature -avx512bf16 -target-feature +cx8 -target-feature +fma -target-feature -rtm -target-feature +bmi -target-feature -enqcmd -target-feature +rdrnd -target-feature -mwaitx -target-feature +sse4.1 -target-feature +sse4.2 -target-feature +avx2 -target-feature +fxsr -target-feature -wbnoinvd -target-feature +sse -target-feature +lzcnt -target-feature +pclmul -target-feature -prefetchwt1 -target-feature +f16c -target-feature +ssse3 -target-feature -sgx -target-feature -shstk -target-feature +cmov -target-feature -avx512vbmi -target-feature -amx-int8 -target-feature +movbe -target-feature -avx512vp2intersect -target-feature +xsaveopt -target-feature -avx512dq -target-feature +adx -target-feature -avx512pf -target-feature +sse3 -tune-cpu skylake -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11 -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/x86_64-pc-linux-gnu -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/backward -internal-isystem /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target x86_64-pc-linux-gnu
+ignoring nonexistent directory "/usr/local/include"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/x86_64-pc-linux-gnu
+ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/backward
+ /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include
+ /usr/include
+End of search list.
+[2/2] Linking CXX executable cmTC_5ee80
+clang version 13.0.0
+Target: x86_64-pc-linux-gnu
+Thread model: posix
+InstalledDir: /usr/lib/llvm/13/bin
+Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1
+Candidate multilib: .;@m64
+Candidate multilib: 32;@m32
+Selected multilib: .;@m64
+ "/usr/bin/ld.lld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5ee80 /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crti.o /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/llvm/13/bin/../lib -L/lib -L/usr/lib -plugin-opt=mcpu=skylake -plugin-opt=O2 -plugin-opt=thinlto -O2 --as-needed -z relro -z now CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a -l:libunwind.so -lc /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a -l:libunwind.so /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crtn.o
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/x86_64-pc-linux-gnu]
+    add: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/backward]
+    add: [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/x86_64-pc-linux-gnu] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/x86_64-pc-linux-gnu]
+  collapse include dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/backward] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/backward]
+  collapse include dir [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include] ==> [/usr/lib/clang/13.0.0/include]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/x86_64-pc-linux-gnu;/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/backward;/usr/lib/clang/13.0.0/include;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.lld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_5ee80 && [1/2] Building CXX object CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [clang version 13.0.0]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/lib/llvm/13/bin]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/usr/lib/llvm/13/bin/clang-13" -cc1 -triple x86_64-pc-linux-gnu -emit-llvm-bc -flto=thin -flto-unit -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model static -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu skylake -target-feature +sse2 -target-feature -tsxldtrk -target-feature +cx16 -target-feature +sahf -target-feature -tbm -target-feature -avx512ifma -target-feature -sha -target-feature -gfni -target-feature -fma4 -target-feature -vpclmulqdq -target-feature +prfchw -target-feature +bmi2 -target-feature -cldemote -target-feature +fsgsbase -target-feature -ptwrite -target-feature -amx-tile -target-feature -uintr -target-feature +popcnt -target-feature -widekl -target-feature +aes -target-feature -avx512bitalg -target-feature -movdiri -target-feature +xsaves -target-feature -avx512er -target-feature -avxvnni -target-feature -avx512vnni -target-feature -amx-bf16 -target-feature -avx512vpopcntdq -target-feature -pconfig -target-feature -clwb -target-feature -avx512f -target-feature +xsavec -target-feature -clzero -target-feature -pku -target-feature +mmx -target-feature -lwp -target-feature -rdpid -target-feature -xop -target-feature +rdseed -target-feature -waitpkg -target-feature -kl -target-feature -movdir64b -target-feature -sse4a -target-feature -avx512bw -target-feature +clflushopt -target-feature +xsave -target-feature -avx512vbmi2 -target-feature +64bit -target-feature -avx512vl -target-feature -serialize -target-feature -hreset -target-feature +invpcid -target-feature -avx512cd -target-feature +avx -target-feature -vaes -target-feature -avx512bf16 -target-feature +cx8 -target-feature +fma -target-feature -rtm -target-feature +bmi -target-feature -enqcmd -target-feature +rdrnd -target-feature -mwaitx -target-feature +sse4.1 -target-feature +sse4.2 -target-feature +avx2 -target-feature +fxsr -target-feature -wbnoinvd -target-feature +sse -target-feature +lzcnt -target-feature +pclmul -target-feature -prefetchwt1 -target-feature +f16c -target-feature +ssse3 -target-feature -sgx -target-feature -shstk -target-feature +cmov -target-feature -avx512vbmi -target-feature -amx-int8 -target-feature +movbe -target-feature -avx512vp2intersect -target-feature +xsaveopt -target-feature -avx512dq -target-feature +adx -target-feature -avx512pf -target-feature +sse3 -tune-cpu skylake -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp -resource-dir /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0 -dependency-file CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D NDEBUG -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11 -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/x86_64-pc-linux-gnu -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/backward -internal-isystem /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -O2 -fdeprecated-macro -fdebug-compilation-dir=/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp -ferror-limit 19 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 13.0.0 based upon LLVM 13.0.0 default target x86_64-pc-linux-gnu]
+  ignore line: [ignoring nonexistent directory "/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/x86_64-pc-linux-gnu]
+  ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/include/g++-v11/backward]
+  ignore line: [ /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/include]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [[2/2] Linking CXX executable cmTC_5ee80]
+  ignore line: [clang version 13.0.0]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/lib/llvm/13/bin]
+  ignore line: [Selected GCC installation: /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Candidate multilib: 32]
+  ignore line: [@m32]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/usr/bin/ld.lld" --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5ee80 /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crti.o /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/lib -L/usr/lib/llvm/13/bin/../lib -L/lib -L/usr/lib -plugin-opt=mcpu=skylake -plugin-opt=O2 -plugin-opt=thinlto -O2 --as-needed -z relro -z now CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a -l:libunwind.so -lc /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a -l:libunwind.so /usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o /usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crtn.o]
+    arg [/usr/bin/ld.lld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_5ee80] ==> ignore
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crt1.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crti.o]
+    arg [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o] ==> obj [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/lib] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/lib]
+    arg [-L/usr/lib/llvm/13/bin/../lib] ==> dir [/usr/lib/llvm/13/bin/../lib]
+    arg [-L/lib] ==> dir [/lib]
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-plugin-opt=mcpu=skylake] ==> ignore
+    arg [-plugin-opt=O2] ==> ignore
+    arg [-plugin-opt=thinlto] ==> ignore
+    arg [-O2] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_5ee80.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [-l:libunwind.so] ==> lib [-l:libunwind.so]
+    arg [-lc] ==> lib [c]
+    arg [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a] ==> lib [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a]
+    arg [-l:libunwind.so] ==> lib [-l:libunwind.so]
+    arg [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o] ==> obj [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o]
+    arg [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crtn.o]
+  remove lib [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a]
+  remove lib [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/libclang_rt.builtins-x86_64.a]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crt1.o] ==> [/usr/lib64/crt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+  collapse obj [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o] ==> [/usr/lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o]
+  collapse obj [/usr/lib/llvm/13/bin/../../../../lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o] ==> [/usr/lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o]
+  collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1] ==> [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1/../../../../x86_64-pc-linux-gnu/lib] ==> [/usr/x86_64-pc-linux-gnu/lib]
+  collapse library dir [/usr/lib/llvm/13/bin/../lib] ==> [/usr/lib/llvm/13/lib]
+  collapse library dir [/lib] ==> [/lib]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  implicit libs: [stdc++;m;-l:libunwind.so;c;-l:libunwind.so]
+  implicit objs: [/usr/lib64/crt1.o;/usr/lib64/crti.o;/usr/lib/clang/13.0.0/lib/linux/clang_rt.crtbegin-x86_64.o;/usr/lib/clang/13.0.0/lib/linux/clang_rt.crtend-x86_64.o;/usr/lib64/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-pc-linux-gnu/11.2.1;/usr/lib64;/lib64;/usr/x86_64-pc-linux-gnu/lib;/usr/lib/llvm/13/lib;/lib;/usr/lib]
+  implicit fwks: []
+
+
+Performing C++ SOURCE FILE Test LLVM_LIBSTDCXX_MIN succeeded with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_71a2d && [1/2] Building CXX object CMakeFiles/cmTC_71a2d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_71a2d
+
+
+Source file was:
+
+#include <iosfwd>
+#if defined(__GLIBCXX__)
+#if __GLIBCXX__ < 20150422
+#error Unsupported libstdc++ version
+#endif
+#endif
+#if defined(__GLIBCXX__)
+extern const char _ZNKSt17bad_function_call4whatEv[];
+const char *chk = _ZNKSt17bad_function_call4whatEv;
+#else
+const char *chk = "";
+#endif
+int main() { ++chk; return 0; }
+
+Performing C++ SOURCE FILE Test LLVM_LIBSTDCXX_SOFT_ERROR succeeded with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_c350d && [1/2] Building CXX object CMakeFiles/cmTC_c350d.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_c350d
+
+
+Source file was:
+
+#include <iosfwd>
+#if defined(__GLIBCXX__)
+#if __GLIBCXX__ < 20150422
+#error Unsupported libstdc++ version
+#endif
+#endif
+#if defined(__GLIBCXX__)
+#include <ios>
+void foo(void) { (void) std::iostream_category(); }
+#endif
+int main() { return 0; }
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4b7bb && [1/2] Building C object CMakeFiles/cmTC_4b7bb.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4b7bb
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4f0a3 && [1/2] Building C object CMakeFiles/cmTC_4f0a3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4f0a3
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0afdb && [1/2] Building C object CMakeFiles/cmTC_0afdb.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0afdb
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_43b4d && [1/2] Building C object CMakeFiles/cmTC_43b4d.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_43b4d
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fac4b && [1/2] Building C object CMakeFiles/cmTC_fac4b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_fac4b
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f1165 && [1/2] Building C object CMakeFiles/cmTC_f1165.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_f1165
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_45d9a && [1/2] Building C object CMakeFiles/cmTC_45d9a.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_45d9a
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8f83e && [1/2] Building C object CMakeFiles/cmTC_8f83e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8f83e
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_92e4e && [1/2] Building C object CMakeFiles/cmTC_92e4e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_92e4e
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_587a2 && [1/2] Building C object CMakeFiles/cmTC_587a2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_587a2
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_daa40 && [1/2] Building C object CMakeFiles/cmTC_daa40.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_daa40
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_fab75 && [1/2] Building C object CMakeFiles/cmTC_fab75.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_fab75
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_37101 && [1/2] Building C object CMakeFiles/cmTC_37101.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_37101
+
+
+
+Determining if the include file sysexits.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a06bc && [1/2] Building C object CMakeFiles/cmTC_a06bc.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a06bc
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_9b6af && [1/2] Building C object CMakeFiles/cmTC_9b6af.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9b6af
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_59bb4 && [1/2] Building C object CMakeFiles/cmTC_59bb4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_59bb4
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e70f1 && [1/2] Building C object CMakeFiles/cmTC_e70f1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e70f1
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a41b0 && [1/2] Building C object CMakeFiles/cmTC_a41b0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_a41b0
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0814e && [1/2] Building C object CMakeFiles/cmTC_0814e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0814e
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file linux/magic.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b5733 && [1/2] Building C object CMakeFiles/cmTC_b5733.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b5733
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8f081 && [1/2] Building C object CMakeFiles/cmTC_8f081.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_8f081
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_76cf7 && [1/2] Building C object CMakeFiles/cmTC_76cf7.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_76cf7
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_65b5d && [1/2] Building C object CMakeFiles/cmTC_65b5d.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_65b5d
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_20bcd && [1/2] Building C object CMakeFiles/cmTC_20bcd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_20bcd
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_738a0 && [1/2] Building C object CMakeFiles/cmTC_738a0.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_738a0
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_4f0b7 && [1/2] Building C object CMakeFiles/cmTC_4f0b7.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_4f0b7
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_12dc5 && [1/2] Building C object CMakeFiles/cmTC_12dc5.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_12dc5
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b36c5 && [1/2] Building C object CMakeFiles/cmTC_b36c5.dir/src.c.o
+[2/2] Linking C executable cmTC_b36c5
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the compress2 exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_90b39 && [1/2] Building C object CMakeFiles/cmTC_90b39.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_90b39
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <zlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef compress2
+  return ((int*)(&compress2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the xmlReadMemory exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_07ca0 && [1/2] Building C object CMakeFiles/cmTC_07ca0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_07ca0
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <libxml/xmlreader.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef xmlReadMemory
+  return ((int*)(&xmlReadMemory))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f5d57 && [1/2] Building C object CMakeFiles/cmTC_f5d57.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f5d57
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_UNGUARDED_AVAILABILITY_NEW succeeded with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3e61c && [1/2] Building C object CMakeFiles/cmTC_3e61c.dir/src.c.o
+[2/2] Linking C executable cmTC_3e61c
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the __register_frame exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6a1b8 && [1/2] Building C object CMakeFiles/cmTC_6a1b8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6a1b8
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm/cmake/unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __register_frame
+  return ((int*)(&__register_frame))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __deregister_frame exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_0e919 && [1/2] Building C object CMakeFiles/cmTC_0e919.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0e919
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm/cmake/unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __deregister_frame
+  return ((int*)(&__deregister_frame))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f14b0 && [1/2] Building C object CMakeFiles/cmTC_f14b0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f14b0
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b62c6 && [1/2] Building C object CMakeFiles/cmTC_b62c6.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b62c6
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d0109 && [1/2] Building C object CMakeFiles/cmTC_d0109.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d0109
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_091cb && [1/2] Building C object CMakeFiles/cmTC_091cb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_091cb
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d08bd && [1/2] Building C object CMakeFiles/cmTC_d08bd.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d08bd
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_18445 && [1/2] Building C object CMakeFiles/cmTC_18445.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_18445
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_ae2d8 && [1/2] Building C object CMakeFiles/cmTC_ae2d8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_ae2d8
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1d4a0 && [1/2] Building C object CMakeFiles/cmTC_1d4a0.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_1d4a0
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_fallocate exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_3d247 && [1/2] Building C object CMakeFiles/cmTC_3d247.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3d247
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_507d5 && [1/2] Building C object CMakeFiles/cmTC_507d5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_507d5
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lseek64 exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_f84e4 && [1/2] Building C object CMakeFiles/cmTC_f84e4.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_f84e4
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e396c && [1/2] Building C object CMakeFiles/cmTC_e396c.dir/CheckSymbolExists.c.o
+/var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: warning: 'mallinfo' is deprecated [-Wdeprecated-declarations]
+  return ((int*)(&mallinfo))[argc];
+                  ^
+/usr/include/malloc.h:113:48: note: 'mallinfo' has been explicitly marked deprecated here
+extern struct mallinfo mallinfo (void) __THROW __MALLOC_DEPRECATED;
+                                               ^
+/usr/include/malloc.h:31:30: note: expanded from macro '__MALLOC_DEPRECATED'
+# define __MALLOC_DEPRECATED __attribute_deprecated__
+                             ^
+/usr/include/sys/cdefs.h:281:51: note: expanded from macro '__attribute_deprecated__'
+# define __attribute_deprecated__ __attribute__ ((__deprecated__))
+                                                  ^
+1 warning generated.
+[2/2] Linking C executable cmTC_e396c
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo2 exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_b20df && [1/2] Building C object CMakeFiles/cmTC_b20df.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b20df
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo2
+  return ((int*)(&mallinfo2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_36af8 && [1/2] Building C object CMakeFiles/cmTC_36af8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_36af8
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6a0ba && [1/2] Building C object CMakeFiles/cmTC_6a0ba.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6a0ba
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_200a1 && [1/2] Building C object CMakeFiles/cmTC_200a1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_200a1
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_461b7 && [1/2] Building C object CMakeFiles/cmTC_461b7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_461b7
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_2ab86 && [1/2] Building C object CMakeFiles/cmTC_2ab86.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2ab86
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_e98e5 && [1/2] Building C object CMakeFiles/cmTC_e98e5.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e98e5
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_54846 && [1/2] Building C object CMakeFiles/cmTC_54846.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_54846
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_8aea9 && [1/2] Building C object CMakeFiles/cmTC_8aea9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_8aea9
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC succeeded with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_d7770 && [1/2] Building C object CMakeFiles/cmTC_d7770.dir/src.c.o
+[2/2] Linking C executable cmTC_d7770
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_37d4e && [1/2] Building C object CMakeFiles/cmTC_37d4e.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_37d4e
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_6bae2 && [1/2] Building C object CMakeFiles/cmTC_6bae2.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6bae2
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_005bf && [1/2] Building C object CMakeFiles/cmTC_005bf.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_005bf
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ffi_call exist passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5fb98 && [1/2] Building C object CMakeFiles/cmTC_5fb98.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_5fb98
+
+
+File /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <ffi.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ffi_call
+  return ((int*)(&ffi_call))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_STD_IS_TRIVIALLY_COPYABLE succeeded with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_dd033 && [1/2] Building CXX object CMakeFiles/cmTC_dd033.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_dd033
+
+
+Source file was:
+
+#include <type_traits>
+struct T { int val; };
+static_assert(std::is_trivially_copyable<T>::value, "ok");
+int main() { return 0;}
+
+Determining if the function __atomic_fetch_add_4 exists in the atomic passed with the following output:
+Change Dir: /var/tmp/portage/sys-devel/llvm-13.0.1/work/llvm-13.0.1_build-abi_x86_64.amd64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_1b4c2 && [1/2] Building C object CMakeFiles/cmTC_1b4c2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1b4c2
+
+
+
